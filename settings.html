@@ -216,6 +216,7 @@
                     <input id="short_term_scan" type="checkbox" />
                     <span>Include in World Info Scanning</span>
                 </label>
+
                 <div class="radio_group">
                     <label title="You can instead inject it into your story string manually with the {{qm-short-term-memory}} macro">
                         <input type="radio" name="short_term_position" value="-1" />
@@ -241,6 +242,11 @@
                         </select>
                     </label>
                 </div>
+
+                <label class="checkbox_label" title="Short term memory using rolling window (only use short term memories that are not in the messages included).">
+                    <input id="short_term_rolling_window" type="checkbox" />
+                    <span>Rolling window</span>
+                </label>
 
                 <!-- Long-term memory -->
                 <hr>
