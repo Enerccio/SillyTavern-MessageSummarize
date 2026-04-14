@@ -28,7 +28,7 @@ import {
 import { getContext, extension_settings, saveMetadataDebounced} from '../../../extensions.js';
 import { formatInstructModeChat, formatInstructModePrompt } from '../../../instruct-mode.js';
 import { selected_group, openGroupId } from '../../../group-chats.js';
-import { loadMovingUIState } from '../../../power-user.js';
+import { loadMovingUIState, power_user } from '../../../power-user.js';
 import { dragElement } from '../../../RossAscends-mods.js';
 import { debounce_timeout } from '../../../constants.js';
 import { MacrosParser } from '../../../macros.js';
